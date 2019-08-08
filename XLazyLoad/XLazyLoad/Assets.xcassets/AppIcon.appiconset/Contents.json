@@ -51,13 +51,13 @@
     {
       "size" : "512x512",
       "idiom" : "mac",
-      "filename" : "图层1.png",
+      "filename" : "icon-4.png",
       "scale" : "1x"
     },
     {
       "size" : "512x512",
       "idiom" : "mac",
-      "filename" : "图层1@2x.png",
+      "filename" : "icon@2x-4.png",
       "scale" : "2x"
     }
   ],
