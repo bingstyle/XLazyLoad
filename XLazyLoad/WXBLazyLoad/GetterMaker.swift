@@ -1,6 +1,6 @@
 //
 //  GetterMaker.swift
-//  LazyLoad
+//  WXBLazyLoad
 //
 //  Created by WeiXinbing on 2019/8/8.
 //  Copyright © 2019 wxb. All rights reserved.

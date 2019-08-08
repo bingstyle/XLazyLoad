@@ -11,20 +11,20 @@
 		2D9A503322FBE98C00D4FE85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9A503222FBE98C00D4FE85 /* ViewController.swift */; };
 		2D9A503522FBE98D00D4FE85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D9A503422FBE98D00D4FE85 /* Assets.xcassets */; };
 		2D9A503822FBE98D00D4FE85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D9A503622FBE98D00D4FE85 /* Main.storyboard */; };
-		2D9A504722FBE9E000D4FE85 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9A504622FBE9E000D4FE85 /* Cocoa.framework */; };
-		2D9A504A22FBE9E000D4FE85 /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9A504922FBE9E000D4FE85 /* SourceEditorExtension.swift */; };
-		2D9A504C22FBE9E000D4FE85 /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9A504B22FBE9E000D4FE85 /* SourceEditorCommand.swift */; };
-		2D9A505122FBE9E000D4FE85 /* LazyLoad.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2D9A504422FBE9E000D4FE85 /* LazyLoad.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		2D9A505722FBE9EF00D4FE85 /* GetterMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9A505622FBE9EF00D4FE85 /* GetterMaker.swift */; };
+		2DE9F18922FC0D3100F2747E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9A504622FBE9E000D4FE85 /* Cocoa.framework */; };
+		2DE9F18C22FC0D3100F2747E /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE9F18B22FC0D3100F2747E /* SourceEditorExtension.swift */; };
+		2DE9F18E22FC0D3100F2747E /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE9F18D22FC0D3100F2747E /* SourceEditorCommand.swift */; };
+		2DE9F19322FC0D3100F2747E /* WXBLazyLoad.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2DE9F18822FC0D3100F2747E /* WXBLazyLoad.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2DE9F19822FC0D5600F2747E /* GetterMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE9F19722FC0D5600F2747E /* GetterMaker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2D9A504F22FBE9E000D4FE85 /* PBXContainerItemProxy */ = {
+		2DE9F19122FC0D3100F2747E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2D9A502522FBE98C00D4FE85 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2D9A504322FBE9E000D4FE85;
-			remoteInfo = LazyLoad;
+			remoteGlobalIDString = 2DE9F18722FC0D3100F2747E;
+			remoteInfo = WXBLazyLoad;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -35,7 +35,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				2D9A505122FBE9E000D4FE85 /* LazyLoad.appex in Embed App Extensions */,
+				2DE9F19322FC0D3100F2747E /* WXBLazyLoad.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,13 +50,13 @@
 		2D9A503722FBE98D00D4FE85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D9A503922FBE98D00D4FE85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D9A503A22FBE98D00D4FE85 /* XLazyLoad.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XLazyLoad.entitlements; sourceTree = "<group>"; };
-		2D9A504422FBE9E000D4FE85 /* LazyLoad.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LazyLoad.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D9A504622FBE9E000D4FE85 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		2D9A504922FBE9E000D4FE85 /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
-		2D9A504B22FBE9E000D4FE85 /* SourceEditorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorCommand.swift; sourceTree = "<group>"; };
-		2D9A504D22FBE9E000D4FE85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2D9A504E22FBE9E000D4FE85 /* LazyLoad.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LazyLoad.entitlements; sourceTree = "<group>"; };
-		2D9A505622FBE9EF00D4FE85 /* GetterMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetterMaker.swift; sourceTree = "<group>"; };
+		2DE9F18822FC0D3100F2747E /* WXBLazyLoad.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WXBLazyLoad.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DE9F18B22FC0D3100F2747E /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
+		2DE9F18D22FC0D3100F2747E /* SourceEditorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorCommand.swift; sourceTree = "<group>"; };
+		2DE9F18F22FC0D3100F2747E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DE9F19022FC0D3100F2747E /* WXBLazyLoad.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WXBLazyLoad.entitlements; sourceTree = "<group>"; };
+		2DE9F19722FC0D5600F2747E /* GetterMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetterMaker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,11 +67,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D9A504122FBE9E000D4FE85 /* Frameworks */ = {
+		2DE9F18522FC0D3100F2747E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D9A504722FBE9E000D4FE85 /* Cocoa.framework in Frameworks */,
+				2DE9F18922FC0D3100F2747E /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				2D9A502F22FBE98C00D4FE85 /* XLazyLoad */,
-				2D9A504822FBE9E000D4FE85 /* LazyLoad */,
+				2DE9F18A22FC0D3100F2747E /* WXBLazyLoad */,
 				2D9A504522FBE9E000D4FE85 /* Frameworks */,
 				2D9A502E22FBE98C00D4FE85 /* Products */,
 			);
@@ -92,7 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				2D9A502D22FBE98C00D4FE85 /* XLazyLoad.app */,
-				2D9A504422FBE9E000D4FE85 /* LazyLoad.appex */,
+				2DE9F18822FC0D3100F2747E /* WXBLazyLoad.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,16 +118,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2D9A504822FBE9E000D4FE85 /* LazyLoad */ = {
+		2DE9F18A22FC0D3100F2747E /* WXBLazyLoad */ = {
 			isa = PBXGroup;
 			children = (
-				2D9A504922FBE9E000D4FE85 /* SourceEditorExtension.swift */,
-				2D9A504B22FBE9E000D4FE85 /* SourceEditorCommand.swift */,
-				2D9A505622FBE9EF00D4FE85 /* GetterMaker.swift */,
-				2D9A504D22FBE9E000D4FE85 /* Info.plist */,
-				2D9A504E22FBE9E000D4FE85 /* LazyLoad.entitlements */,
+				2DE9F18B22FC0D3100F2747E /* SourceEditorExtension.swift */,
+				2DE9F18D22FC0D3100F2747E /* SourceEditorCommand.swift */,
+				2DE9F19722FC0D5600F2747E /* GetterMaker.swift */,
+				2DE9F18F22FC0D3100F2747E /* Info.plist */,
+				2DE9F19022FC0D3100F2747E /* WXBLazyLoad.entitlements */,
 			);
-			path = LazyLoad;
+			path = WXBLazyLoad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,28 +145,28 @@
 			buildRules = (
 			);
 			dependencies = (
-				2D9A505022FBE9E000D4FE85 /* PBXTargetDependency */,
+				2DE9F19222FC0D3100F2747E /* PBXTargetDependency */,
 			);
 			name = XLazyLoad;
 			productName = XLazyLoad;
 			productReference = 2D9A502D22FBE98C00D4FE85 /* XLazyLoad.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D9A504322FBE9E000D4FE85 /* LazyLoad */ = {
+		2DE9F18722FC0D3100F2747E /* WXBLazyLoad */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D9A505222FBE9E000D4FE85 /* Build configuration list for PBXNativeTarget "LazyLoad" */;
+			buildConfigurationList = 2DE9F19622FC0D3100F2747E /* Build configuration list for PBXNativeTarget "WXBLazyLoad" */;
 			buildPhases = (
-				2D9A504022FBE9E000D4FE85 /* Sources */,
-				2D9A504122FBE9E000D4FE85 /* Frameworks */,
-				2D9A504222FBE9E000D4FE85 /* Resources */,
+				2DE9F18422FC0D3100F2747E /* Sources */,
+				2DE9F18522FC0D3100F2747E /* Frameworks */,
+				2DE9F18622FC0D3100F2747E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = LazyLoad;
-			productName = LazyLoad;
-			productReference = 2D9A504422FBE9E000D4FE85 /* LazyLoad.appex */;
+			name = WXBLazyLoad;
+			productName = WXBLazyLoad;
+			productReference = 2DE9F18822FC0D3100F2747E /* WXBLazyLoad.appex */;
 			productType = "com.apple.product-type.xcode-extension";
 		};
 /* End PBXNativeTarget section */
@@ -182,7 +182,7 @@
 					2D9A502C22FBE98C00D4FE85 = {
 						CreatedOnToolsVersion = 10.3;
 					};
-					2D9A504322FBE9E000D4FE85 = {
+					2DE9F18722FC0D3100F2747E = {
 						CreatedOnToolsVersion = 10.3;
 					};
 				};
@@ -201,7 +201,7 @@
 			projectRoot = "";
 			targets = (
 				2D9A502C22FBE98C00D4FE85 /* XLazyLoad */,
-				2D9A504322FBE9E000D4FE85 /* LazyLoad */,
+				2DE9F18722FC0D3100F2747E /* WXBLazyLoad */,
 			);
 		};
 /* End PBXProject section */
@@ -216,7 +216,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D9A504222FBE9E000D4FE85 /* Resources */ = {
+		2DE9F18622FC0D3100F2747E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -235,23 +235,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D9A504022FBE9E000D4FE85 /* Sources */ = {
+		2DE9F18422FC0D3100F2747E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D9A504A22FBE9E000D4FE85 /* SourceEditorExtension.swift in Sources */,
-				2D9A505722FBE9EF00D4FE85 /* GetterMaker.swift in Sources */,
-				2D9A504C22FBE9E000D4FE85 /* SourceEditorCommand.swift in Sources */,
+				2DE9F18C22FC0D3100F2747E /* SourceEditorExtension.swift in Sources */,
+				2DE9F19822FC0D5600F2747E /* GetterMaker.swift in Sources */,
+				2DE9F18E22FC0D3100F2747E /* SourceEditorCommand.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2D9A505022FBE9E000D4FE85 /* PBXTargetDependency */ = {
+		2DE9F19222FC0D3100F2747E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D9A504322FBE9E000D4FE85 /* LazyLoad */;
-			targetProxy = 2D9A504F22FBE9E000D4FE85 /* PBXContainerItemProxy */;
+			target = 2DE9F18722FC0D3100F2747E /* WXBLazyLoad */;
+			targetProxy = 2DE9F19122FC0D3100F2747E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -391,7 +391,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 8CMA7Q3TCW;
+				DEVELOPMENT_TEAM = 3J56DG266C;
 				INFOPLIST_FILE = XLazyLoad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -413,7 +413,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 8CMA7Q3TCW;
+				DEVELOPMENT_TEAM = 3J56DG266C;
 				INFOPLIST_FILE = XLazyLoad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -426,45 +426,43 @@
 			};
 			name = Release;
 		};
-		2D9A505322FBE9E000D4FE85 /* Debug */ = {
+		2DE9F19422FC0D3100F2747E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = LazyLoad/LazyLoad.entitlements;
+				CODE_SIGN_ENTITLEMENTS = WXBLazyLoad/WXBLazyLoad.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 8CMA7Q3TCW;
-				INFOPLIST_FILE = LazyLoad/Info.plist;
+				DEVELOPMENT_TEAM = 3J56DG266C;
+				INFOPLIST_FILE = WXBLazyLoad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = wxb.XLazyLoad.LazyLoad;
+				PRODUCT_BUNDLE_IDENTIFIER = wxb.XLazyLoad.WXBLazyLoad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		2D9A505422FBE9E000D4FE85 /* Release */ = {
+		2DE9F19522FC0D3100F2747E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = LazyLoad/LazyLoad.entitlements;
+				CODE_SIGN_ENTITLEMENTS = WXBLazyLoad/WXBLazyLoad.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 8CMA7Q3TCW;
-				INFOPLIST_FILE = LazyLoad/Info.plist;
+				DEVELOPMENT_TEAM = 3J56DG266C;
+				INFOPLIST_FILE = WXBLazyLoad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = wxb.XLazyLoad.LazyLoad;
+				PRODUCT_BUNDLE_IDENTIFIER = wxb.XLazyLoad.WXBLazyLoad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -491,11 +489,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D9A505222FBE9E000D4FE85 /* Build configuration list for PBXNativeTarget "LazyLoad" */ = {
+		2DE9F19622FC0D3100F2747E /* Build configuration list for PBXNativeTarget "WXBLazyLoad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2D9A505322FBE9E000D4FE85 /* Debug */,
-				2D9A505422FBE9E000D4FE85 /* Release */,
+				2DE9F19422FC0D3100F2747E /* Debug */,
+				2DE9F19522FC0D3100F2747E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
