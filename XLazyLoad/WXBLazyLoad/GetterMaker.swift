@@ -101,7 +101,7 @@ private extension GetterMaker {
     func generateLazyLoadString(className: String, propertyName: String) -> String {
         
         let otherTempString = #"""
-                        -(ClassName *)propertyName{
+                        - (ClassName *)propertyName {
                             if (_propertyName == nil) {
                                 _propertyName = [ClassName new];
                             }
