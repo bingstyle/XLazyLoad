@@ -2,8 +2,7 @@
 //  SourceEditorExtension.swift
 //  WXBLazyLoad
 //
-//  Created by WeiXinbing on 2019/8/8.
-//  Copyright © 2019 wxb. All rights reserved.
+//  Created by WeiXinbing on 2021/7/23.
 //
 
 import Foundation

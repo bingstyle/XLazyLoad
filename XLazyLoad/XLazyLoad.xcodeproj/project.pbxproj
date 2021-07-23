@@ -7,125 +7,141 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D9A503122FBE98C00D4FE85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9A503022FBE98C00D4FE85 /* AppDelegate.swift */; };
-		2D9A503322FBE98C00D4FE85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9A503222FBE98C00D4FE85 /* ViewController.swift */; };
-		2D9A503522FBE98D00D4FE85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D9A503422FBE98D00D4FE85 /* Assets.xcassets */; };
-		2D9A503822FBE98D00D4FE85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D9A503622FBE98D00D4FE85 /* Main.storyboard */; };
-		2DE9F18922FC0D3100F2747E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9A504622FBE9E000D4FE85 /* Cocoa.framework */; };
-		2DE9F18C22FC0D3100F2747E /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE9F18B22FC0D3100F2747E /* SourceEditorExtension.swift */; };
-		2DE9F18E22FC0D3100F2747E /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE9F18D22FC0D3100F2747E /* SourceEditorCommand.swift */; };
-		2DE9F19322FC0D3100F2747E /* WXBLazyLoad.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2DE9F18822FC0D3100F2747E /* WXBLazyLoad.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		2DE9F19822FC0D5600F2747E /* GetterMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE9F19722FC0D5600F2747E /* GetterMaker.swift */; };
+		2DFE7BFE26AAA46D00A0ADF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFE7BFD26AAA46D00A0ADF0 /* AppDelegate.swift */; };
+		2DFE7C0026AAA46D00A0ADF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFE7BFF26AAA46D00A0ADF0 /* ViewController.swift */; };
+		2DFE7C0226AAA47100A0ADF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFE7C0126AAA47100A0ADF0 /* Assets.xcassets */; };
+		2DFE7C0526AAA47100A0ADF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DFE7C0326AAA47100A0ADF0 /* Main.storyboard */; };
+		2DFE7C1426AAA4A700A0ADF0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DFE7C1326AAA4A700A0ADF0 /* Cocoa.framework */; };
+		2DFE7C1926AAA4A700A0ADF0 /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFE7C1826AAA4A700A0ADF0 /* SourceEditorExtension.swift */; };
+		2DFE7C1B26AAA4A700A0ADF0 /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFE7C1A26AAA4A700A0ADF0 /* SourceEditorCommand.swift */; };
+		2DFE7C2026AAA4A700A0ADF0 /* WXBLazyLoad.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2DFE7C1126AAA4A700A0ADF0 /* WXBLazyLoad.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2DFE7C2626AAA4CE00A0ADF0 /* GetterMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFE7C2526AAA4CE00A0ADF0 /* GetterMaker.swift */; };
+		2DFE7C2C26AAA70800A0ADF0 /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DFE7C1526AAA4A700A0ADF0 /* XcodeKit.framework */; };
+		2DFE7C2D26AAA70800A0ADF0 /* XcodeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2DFE7C1526AAA4A700A0ADF0 /* XcodeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2DE9F19122FC0D3100F2747E /* PBXContainerItemProxy */ = {
+		2DFE7C1E26AAA4A700A0ADF0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2D9A502522FBE98C00D4FE85 /* Project object */;
+			containerPortal = 2DFE7BF226AAA46D00A0ADF0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2DE9F18722FC0D3100F2747E;
+			remoteGlobalIDString = 2DFE7C1026AAA4A700A0ADF0;
 			remoteInfo = WXBLazyLoad;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		2D9A505522FBE9E000D4FE85 /* Embed App Extensions */ = {
+		2DFE7C2426AAA4A700A0ADF0 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				2DE9F19322FC0D3100F2747E /* WXBLazyLoad.appex in Embed App Extensions */,
+				2DFE7C2026AAA4A700A0ADF0 /* WXBLazyLoad.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DFE7C2E26AAA70800A0ADF0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2DFE7C2D26AAA70800A0ADF0 /* XcodeKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2D9A502D22FBE98C00D4FE85 /* XLazyLoad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLazyLoad.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D9A503022FBE98C00D4FE85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2D9A503222FBE98C00D4FE85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2D9A503422FBE98D00D4FE85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2D9A503722FBE98D00D4FE85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2D9A503922FBE98D00D4FE85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2D9A503A22FBE98D00D4FE85 /* XLazyLoad.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XLazyLoad.entitlements; sourceTree = "<group>"; };
-		2D9A504622FBE9E000D4FE85 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		2DE9F18822FC0D3100F2747E /* WXBLazyLoad.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WXBLazyLoad.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DE9F18B22FC0D3100F2747E /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
-		2DE9F18D22FC0D3100F2747E /* SourceEditorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorCommand.swift; sourceTree = "<group>"; };
-		2DE9F18F22FC0D3100F2747E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2DE9F19022FC0D3100F2747E /* WXBLazyLoad.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WXBLazyLoad.entitlements; sourceTree = "<group>"; };
-		2DE9F19722FC0D5600F2747E /* GetterMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetterMaker.swift; sourceTree = "<group>"; };
+		2DFE7BFA26AAA46D00A0ADF0 /* XLazyLoad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLazyLoad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DFE7BFD26AAA46D00A0ADF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2DFE7BFF26AAA46D00A0ADF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2DFE7C0126AAA47100A0ADF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DFE7C0426AAA47100A0ADF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DFE7C0626AAA47100A0ADF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DFE7C0726AAA47100A0ADF0 /* XLazyLoad.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XLazyLoad.entitlements; sourceTree = "<group>"; };
+		2DFE7C1126AAA4A700A0ADF0 /* WXBLazyLoad.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WXBLazyLoad.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DFE7C1326AAA4A700A0ADF0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2DFE7C1526AAA4A700A0ADF0 /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
+		2DFE7C1826AAA4A700A0ADF0 /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
+		2DFE7C1A26AAA4A700A0ADF0 /* SourceEditorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorCommand.swift; sourceTree = "<group>"; };
+		2DFE7C1C26AAA4A700A0ADF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DFE7C1D26AAA4A700A0ADF0 /* WXBLazyLoad.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WXBLazyLoad.entitlements; sourceTree = "<group>"; };
+		2DFE7C2526AAA4CE00A0ADF0 /* GetterMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetterMaker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2D9A502A22FBE98C00D4FE85 /* Frameworks */ = {
+		2DFE7BF726AAA46D00A0ADF0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2DE9F18522FC0D3100F2747E /* Frameworks */ = {
+		2DFE7C0E26AAA4A700A0ADF0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DE9F18922FC0D3100F2747E /* Cocoa.framework in Frameworks */,
+				2DFE7C1426AAA4A700A0ADF0 /* Cocoa.framework in Frameworks */,
+				2DFE7C2C26AAA70800A0ADF0 /* XcodeKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2D9A502422FBE98C00D4FE85 = {
+		2DFE7BF126AAA46D00A0ADF0 = {
 			isa = PBXGroup;
 			children = (
-				2D9A502F22FBE98C00D4FE85 /* XLazyLoad */,
-				2DE9F18A22FC0D3100F2747E /* WXBLazyLoad */,
-				2D9A504522FBE9E000D4FE85 /* Frameworks */,
-				2D9A502E22FBE98C00D4FE85 /* Products */,
+				2DFE7BFC26AAA46D00A0ADF0 /* XLazyLoad */,
+				2DFE7C1726AAA4A700A0ADF0 /* WXBLazyLoad */,
+				2DFE7C1226AAA4A700A0ADF0 /* Frameworks */,
+				2DFE7BFB26AAA46D00A0ADF0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2D9A502E22FBE98C00D4FE85 /* Products */ = {
+		2DFE7BFB26AAA46D00A0ADF0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2D9A502D22FBE98C00D4FE85 /* XLazyLoad.app */,
-				2DE9F18822FC0D3100F2747E /* WXBLazyLoad.appex */,
+				2DFE7BFA26AAA46D00A0ADF0 /* XLazyLoad.app */,
+				2DFE7C1126AAA4A700A0ADF0 /* WXBLazyLoad.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2D9A502F22FBE98C00D4FE85 /* XLazyLoad */ = {
+		2DFE7BFC26AAA46D00A0ADF0 /* XLazyLoad */ = {
 			isa = PBXGroup;
 			children = (
-				2D9A503022FBE98C00D4FE85 /* AppDelegate.swift */,
-				2D9A503222FBE98C00D4FE85 /* ViewController.swift */,
-				2D9A503422FBE98D00D4FE85 /* Assets.xcassets */,
-				2D9A503622FBE98D00D4FE85 /* Main.storyboard */,
-				2D9A503922FBE98D00D4FE85 /* Info.plist */,
-				2D9A503A22FBE98D00D4FE85 /* XLazyLoad.entitlements */,
+				2DFE7BFD26AAA46D00A0ADF0 /* AppDelegate.swift */,
+				2DFE7BFF26AAA46D00A0ADF0 /* ViewController.swift */,
+				2DFE7C0126AAA47100A0ADF0 /* Assets.xcassets */,
+				2DFE7C0326AAA47100A0ADF0 /* Main.storyboard */,
+				2DFE7C0626AAA47100A0ADF0 /* Info.plist */,
+				2DFE7C0726AAA47100A0ADF0 /* XLazyLoad.entitlements */,
 			);
 			path = XLazyLoad;
 			sourceTree = "<group>";
 		};
-		2D9A504522FBE9E000D4FE85 /* Frameworks */ = {
+		2DFE7C1226AAA4A700A0ADF0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2D9A504622FBE9E000D4FE85 /* Cocoa.framework */,
+				2DFE7C1326AAA4A700A0ADF0 /* Cocoa.framework */,
+				2DFE7C1526AAA4A700A0ADF0 /* XcodeKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2DE9F18A22FC0D3100F2747E /* WXBLazyLoad */ = {
+		2DFE7C1726AAA4A700A0ADF0 /* WXBLazyLoad */ = {
 			isa = PBXGroup;
 			children = (
-				2DE9F18B22FC0D3100F2747E /* SourceEditorExtension.swift */,
-				2DE9F18D22FC0D3100F2747E /* SourceEditorCommand.swift */,
-				2DE9F19722FC0D5600F2747E /* GetterMaker.swift */,
-				2DE9F18F22FC0D3100F2747E /* Info.plist */,
-				2DE9F19022FC0D3100F2747E /* WXBLazyLoad.entitlements */,
+				2DFE7C1826AAA4A700A0ADF0 /* SourceEditorExtension.swift */,
+				2DFE7C1A26AAA4A700A0ADF0 /* SourceEditorCommand.swift */,
+				2DFE7C2526AAA4CE00A0ADF0 /* GetterMaker.swift */,
+				2DFE7C1C26AAA4A700A0ADF0 /* Info.plist */,
+				2DFE7C1D26AAA4A700A0ADF0 /* WXBLazyLoad.entitlements */,
 			);
 			path = WXBLazyLoad;
 			sourceTree = "<group>";
@@ -133,32 +149,33 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2D9A502C22FBE98C00D4FE85 /* XLazyLoad */ = {
+		2DFE7BF926AAA46D00A0ADF0 /* XLazyLoad */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D9A503D22FBE98D00D4FE85 /* Build configuration list for PBXNativeTarget "XLazyLoad" */;
+			buildConfigurationList = 2DFE7C0A26AAA47100A0ADF0 /* Build configuration list for PBXNativeTarget "XLazyLoad" */;
 			buildPhases = (
-				2D9A502922FBE98C00D4FE85 /* Sources */,
-				2D9A502A22FBE98C00D4FE85 /* Frameworks */,
-				2D9A502B22FBE98C00D4FE85 /* Resources */,
-				2D9A505522FBE9E000D4FE85 /* Embed App Extensions */,
+				2DFE7BF626AAA46D00A0ADF0 /* Sources */,
+				2DFE7BF726AAA46D00A0ADF0 /* Frameworks */,
+				2DFE7BF826AAA46D00A0ADF0 /* Resources */,
+				2DFE7C2426AAA4A700A0ADF0 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2DE9F19222FC0D3100F2747E /* PBXTargetDependency */,
+				2DFE7C1F26AAA4A700A0ADF0 /* PBXTargetDependency */,
 			);
 			name = XLazyLoad;
 			productName = XLazyLoad;
-			productReference = 2D9A502D22FBE98C00D4FE85 /* XLazyLoad.app */;
+			productReference = 2DFE7BFA26AAA46D00A0ADF0 /* XLazyLoad.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2DE9F18722FC0D3100F2747E /* WXBLazyLoad */ = {
+		2DFE7C1026AAA4A700A0ADF0 /* WXBLazyLoad */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2DE9F19622FC0D3100F2747E /* Build configuration list for PBXNativeTarget "WXBLazyLoad" */;
+			buildConfigurationList = 2DFE7C2126AAA4A700A0ADF0 /* Build configuration list for PBXNativeTarget "WXBLazyLoad" */;
 			buildPhases = (
-				2DE9F18422FC0D3100F2747E /* Sources */,
-				2DE9F18522FC0D3100F2747E /* Frameworks */,
-				2DE9F18622FC0D3100F2747E /* Resources */,
+				2DFE7C0D26AAA4A700A0ADF0 /* Sources */,
+				2DFE7C0E26AAA4A700A0ADF0 /* Frameworks */,
+				2DFE7C0F26AAA4A700A0ADF0 /* Resources */,
+				2DFE7C2E26AAA70800A0ADF0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -166,28 +183,27 @@
 			);
 			name = WXBLazyLoad;
 			productName = WXBLazyLoad;
-			productReference = 2DE9F18822FC0D3100F2747E /* WXBLazyLoad.appex */;
+			productReference = 2DFE7C1126AAA4A700A0ADF0 /* WXBLazyLoad.appex */;
 			productType = "com.apple.product-type.xcode-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2D9A502522FBE98C00D4FE85 /* Project object */ = {
+		2DFE7BF226AAA46D00A0ADF0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1030;
-				LastUpgradeCheck = 1030;
-				ORGANIZATIONNAME = wxb;
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					2D9A502C22FBE98C00D4FE85 = {
-						CreatedOnToolsVersion = 10.3;
+					2DFE7BF926AAA46D00A0ADF0 = {
+						CreatedOnToolsVersion = 12.5;
 					};
-					2DE9F18722FC0D3100F2747E = {
-						CreatedOnToolsVersion = 10.3;
+					2DFE7C1026AAA4A700A0ADF0 = {
+						CreatedOnToolsVersion = 12.5;
 					};
 				};
 			};
-			buildConfigurationList = 2D9A502822FBE98C00D4FE85 /* Build configuration list for PBXProject "XLazyLoad" */;
+			buildConfigurationList = 2DFE7BF526AAA46D00A0ADF0 /* Build configuration list for PBXProject "XLazyLoad" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -195,28 +211,28 @@
 				en,
 				Base,
 			);
-			mainGroup = 2D9A502422FBE98C00D4FE85;
-			productRefGroup = 2D9A502E22FBE98C00D4FE85 /* Products */;
+			mainGroup = 2DFE7BF126AAA46D00A0ADF0;
+			productRefGroup = 2DFE7BFB26AAA46D00A0ADF0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2D9A502C22FBE98C00D4FE85 /* XLazyLoad */,
-				2DE9F18722FC0D3100F2747E /* WXBLazyLoad */,
+				2DFE7BF926AAA46D00A0ADF0 /* XLazyLoad */,
+				2DFE7C1026AAA4A700A0ADF0 /* WXBLazyLoad */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2D9A502B22FBE98C00D4FE85 /* Resources */ = {
+		2DFE7BF826AAA46D00A0ADF0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D9A503522FBE98D00D4FE85 /* Assets.xcassets in Resources */,
-				2D9A503822FBE98D00D4FE85 /* Main.storyboard in Resources */,
+				2DFE7C0226AAA47100A0ADF0 /* Assets.xcassets in Resources */,
+				2DFE7C0526AAA47100A0ADF0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2DE9F18622FC0D3100F2747E /* Resources */ = {
+		2DFE7C0F26AAA4A700A0ADF0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -226,40 +242,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2D9A502922FBE98C00D4FE85 /* Sources */ = {
+		2DFE7BF626AAA46D00A0ADF0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D9A503322FBE98C00D4FE85 /* ViewController.swift in Sources */,
-				2D9A503122FBE98C00D4FE85 /* AppDelegate.swift in Sources */,
+				2DFE7C0026AAA46D00A0ADF0 /* ViewController.swift in Sources */,
+				2DFE7BFE26AAA46D00A0ADF0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2DE9F18422FC0D3100F2747E /* Sources */ = {
+		2DFE7C0D26AAA4A700A0ADF0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DE9F18C22FC0D3100F2747E /* SourceEditorExtension.swift in Sources */,
-				2DE9F19822FC0D5600F2747E /* GetterMaker.swift in Sources */,
-				2DE9F18E22FC0D3100F2747E /* SourceEditorCommand.swift in Sources */,
+				2DFE7C1926AAA4A700A0ADF0 /* SourceEditorExtension.swift in Sources */,
+				2DFE7C2626AAA4CE00A0ADF0 /* GetterMaker.swift in Sources */,
+				2DFE7C1B26AAA4A700A0ADF0 /* SourceEditorCommand.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2DE9F19222FC0D3100F2747E /* PBXTargetDependency */ = {
+		2DFE7C1F26AAA4A700A0ADF0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2DE9F18722FC0D3100F2747E /* WXBLazyLoad */;
-			targetProxy = 2DE9F19122FC0D3100F2747E /* PBXContainerItemProxy */;
+			target = 2DFE7C1026AAA4A700A0ADF0 /* WXBLazyLoad */;
+			targetProxy = 2DFE7C1E26AAA4A700A0ADF0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2D9A503622FBE98D00D4FE85 /* Main.storyboard */ = {
+		2DFE7C0326AAA47100A0ADF0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2D9A503722FBE98D00D4FE85 /* Base */,
+				2DFE7C0426AAA47100A0ADF0 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -267,7 +283,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		2D9A503B22FBE98D00D4FE85 /* Debug */ = {
+		2DFE7C0826AAA47100A0ADF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -293,13 +309,13 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -318,7 +334,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -328,7 +344,7 @@
 			};
 			name = Debug;
 		};
-		2D9A503C22FBE98D00D4FE85 /* Release */ = {
+		2DFE7C0926AAA47100A0ADF0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -354,13 +370,13 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -373,7 +389,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -382,86 +398,82 @@
 			};
 			name = Release;
 		};
-		2D9A503E22FBE98D00D4FE85 /* Debug */ = {
+		2DFE7C0B26AAA47100A0ADF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = XLazyLoad/XLazyLoad.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 3J56DG266C;
+				DEVELOPMENT_TEAM = 9XLJT488MT;
 				INFOPLIST_FILE = XLazyLoad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = wxb.XLazyLoad;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bing.XLazyLoad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		2D9A503F22FBE98D00D4FE85 /* Release */ = {
+		2DFE7C0C26AAA47100A0ADF0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = XLazyLoad/XLazyLoad.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 3J56DG266C;
+				DEVELOPMENT_TEAM = 9XLJT488MT;
 				INFOPLIST_FILE = XLazyLoad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = wxb.XLazyLoad;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bing.XLazyLoad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		2DE9F19422FC0D3100F2747E /* Debug */ = {
+		2DFE7C2226AAA4A700A0ADF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = WXBLazyLoad/WXBLazyLoad.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 3J56DG266C;
+				DEVELOPMENT_TEAM = 9XLJT488MT;
 				INFOPLIST_FILE = WXBLazyLoad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = wxb.XLazyLoad.WXBLazyLoad;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bing.XLazyLoad.WXBLazyLoad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		2DE9F19522FC0D3100F2747E /* Release */ = {
+		2DFE7C2326AAA4A700A0ADF0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = WXBLazyLoad/WXBLazyLoad.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 3J56DG266C;
+				DEVELOPMENT_TEAM = 9XLJT488MT;
 				INFOPLIST_FILE = WXBLazyLoad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = wxb.XLazyLoad.WXBLazyLoad;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bing.XLazyLoad.WXBLazyLoad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -471,34 +483,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D9A502822FBE98C00D4FE85 /* Build configuration list for PBXProject "XLazyLoad" */ = {
+		2DFE7BF526AAA46D00A0ADF0 /* Build configuration list for PBXProject "XLazyLoad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2D9A503B22FBE98D00D4FE85 /* Debug */,
-				2D9A503C22FBE98D00D4FE85 /* Release */,
+				2DFE7C0826AAA47100A0ADF0 /* Debug */,
+				2DFE7C0926AAA47100A0ADF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D9A503D22FBE98D00D4FE85 /* Build configuration list for PBXNativeTarget "XLazyLoad" */ = {
+		2DFE7C0A26AAA47100A0ADF0 /* Build configuration list for PBXNativeTarget "XLazyLoad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2D9A503E22FBE98D00D4FE85 /* Debug */,
-				2D9A503F22FBE98D00D4FE85 /* Release */,
+				2DFE7C0B26AAA47100A0ADF0 /* Debug */,
+				2DFE7C0C26AAA47100A0ADF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2DE9F19622FC0D3100F2747E /* Build configuration list for PBXNativeTarget "WXBLazyLoad" */ = {
+		2DFE7C2126AAA4A700A0ADF0 /* Build configuration list for PBXNativeTarget "WXBLazyLoad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2DE9F19422FC0D3100F2747E /* Debug */,
-				2DE9F19522FC0D3100F2747E /* Release */,
+				2DFE7C2226AAA4A700A0ADF0 /* Debug */,
+				2DFE7C2326AAA4A700A0ADF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2D9A502522FBE98C00D4FE85 /* Project object */;
+	rootObject = 2DFE7BF226AAA46D00A0ADF0 /* Project object */;
 }
